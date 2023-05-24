@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
-public class MovieRepository {
+public class MovieRepository {//data
 
     private List<Movie> movieList=new ArrayList<>();
     private   List<Director> directorList=new ArrayList<>();

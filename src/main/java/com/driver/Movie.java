@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Movie {
-    //String name, int durationInMinutes, double imdbRating
+    //String name, int durationInMinutes, double imdbRating .
     private String name;
     private int durationInMinutes;
     private double imdbRating;

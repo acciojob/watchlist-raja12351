@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MovieService {
 
-    MovieRepository movieRepository=new MovieRepository();
+    MovieRepository movieRepository=new MovieRepository();//object
     public void addMovie(Movie movie) {
         movieRepository.addMovie(movie);
     }

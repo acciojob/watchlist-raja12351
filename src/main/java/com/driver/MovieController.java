@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping("movies")
 public class MovieController {
-    MovieService movieService=new MovieService();
+    MovieService movieService=new MovieService();//object
 
     @PostMapping("/add-movie")
     public ResponseEntity<String> addMovie (@RequestBody Movie movie){
